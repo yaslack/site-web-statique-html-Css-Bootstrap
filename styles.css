@@ -1,25 +1,43 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-header, footer {
-    position: fixed;
-    width: 100%;
+html,body{
+    height: 100%
 }
 
-main{
-    height: 100%;
-    border-top: 30px solid white;
-    background-color: black;
+body, row{
+    background-color: white;
 }
 
-footer{
-    background-color: rgb(240, 159, 101);
-    bottom: 0;
-}
-
-p {
-    color: red;
-    text-align: center;
+.nav-item > a:hover {
+    color: rgb(209, 182, 133) !important;
   }
+.carousel-caption{
+    text-shadow: black 0.3em 0.3em 0.4em;
+}
+#paragraphs{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#contact, #backTop{
+    text-align: center;
+}
+
+#backTop{
+    padding: 10px;
+}
+
+#icone-list li{
+    display: inline ; 
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+h2{
+    text-align: center;
+}
+  footer{
+      background-color: rgb(52, 58, 64);
+      color: white;
+  }
+
+  
