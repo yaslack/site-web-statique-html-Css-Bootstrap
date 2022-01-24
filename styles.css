@@ -9,13 +9,38 @@ body, row{
 .nav-item > a:hover {
     color: rgb(209, 182, 133) !important;
   }
+
+
 .carousel-caption{
     text-shadow: black 0.3em 0.3em 0.4em;
 }
+
+@media (min-width: 1000px) { 
+
+    .carousel-item :active >img{
+        object-fit:cover;
+        object-position:center;
+    }
+    .carousel{
+        width:50%;
+        margin: auto;
+        min-height:500px;
+        max-height:860px;
+        }
+}
+
 #paragraphs{
     margin: auto;
     width: 50%;
     padding: 10px;
+}
+
+#paragraphs p{
+    padding: 10%;
+}
+
+#contact{
+    padding: 5%;
 }
 
 #contact, #backTop{
@@ -34,6 +59,10 @@ body, row{
 
 h2{
     text-align: center;
+}
+
+h5{
+    padding: 5%;
 }
   footer{
       background-color: rgb(52, 58, 64);
