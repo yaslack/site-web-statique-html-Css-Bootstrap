@@ -29,6 +29,10 @@ body, row{
         }
 }
 
+#carouselSwipe{
+    margin-top: 5%;
+}
+
 #paragraphs{
     margin: auto;
     width: 50%;
